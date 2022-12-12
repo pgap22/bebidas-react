@@ -9,7 +9,7 @@ const Select = ({ label, options, id, blankValue }) => {
     <>
       <div className="flex flex-col gap-6">
         <div className="flex gap-10">
-          <label htmlFor={id}>Seleccione un ingrediente</label>
+          <label htmlFor={id}>Seleccione un {label}</label>
           <input
             type="radio"
             value={id}
